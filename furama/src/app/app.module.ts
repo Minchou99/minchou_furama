@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
+import { FacilityListComponent } from './facility-list/facility-list.component';
+import { FacilityEditComponent } from './facility-edit/facility-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    FacilityListComponent,
+    FacilityEditComponent
   ],
   imports: [
     BrowserModule
