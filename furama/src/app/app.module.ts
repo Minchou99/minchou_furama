@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { FacilityListComponent } from './facility-list/facility-list.component';
 import { FacilityEditComponent } from './facility-edit/facility-edit.component';
+import { CustomerCreateComponent } from './customer-create/customer-create.component';
+import { FacilityCreateComponent } from './facility-create/facility-create.component';
+import { CustomerListComponent } from './customer-list/customer-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FacilityEditComponent } from './facility-edit/facility-edit.component';
     HeaderComponent,
     NavComponent,
     FacilityListComponent,
-    FacilityEditComponent
+    FacilityEditComponent,
+    CustomerCreateComponent,
+    FacilityCreateComponent,
+    CustomerListComponent
   ],
   imports: [
     BrowserModule
